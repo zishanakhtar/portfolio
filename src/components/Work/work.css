@@ -1,0 +1,44 @@
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.aboutCard {
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 70vw;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutCard:hover {
+    background-color: rgb(55, 55, 55);
+    cursor: pointer;
+}
+
+.aboutDetail {
+    display: inline-block;
+}
+
+.line {
+    width: 100vw;
+    height: 1px;
+    background-color: white;
+}
