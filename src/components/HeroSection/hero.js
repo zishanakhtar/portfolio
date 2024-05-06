@@ -10,9 +10,9 @@ const Hero = () => {
         <div className="heroText">
           <div className="heroText">I am Md Zishan Akhtar</div>
           <TypeAnimation
-            sequence={["Automation QA", 1000, "Web Developer", 1000]}
+            sequence={["Automation QA", 2000, "Web Developer", 2000]}
             wrapper="div"
-            speed={50}
+            speed={10}
             repeat={Infinity}
           />
         </div>

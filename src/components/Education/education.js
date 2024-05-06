@@ -19,7 +19,7 @@ const edu = [
     },
     {
       sl: 3,
-      name: "KIIT School of Mechanical Engineering",
+      name: "Bachelor of Technology",
       duration: "2015 - 2019",
       detail:
         "B.Tech in Mechanical Engineering from KIIT School of Mechanical Engineering, Bhubaneswar",

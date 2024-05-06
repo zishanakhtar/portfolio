@@ -3,17 +3,31 @@ import "./navbar.css"
 import logo from '../../assets/logo.png'
 import { Link } from 'react-scroll'
 
+function scrollToElement(elementId) {
+  let element = document.getElementById(elementId);
+  if (element) {
+    let offset = -80; // Adjust the offset as needed
+
+    // Calculate the target scroll position
+    let targetScrollPosition = element.getBoundingClientRect().top + window.scrollY + offset;
+
+    // Scroll to the target position
+    window.scrollTo({
+      top: targetScrollPosition,
+    });
+  }
+}
 
 function scrollToAbout() {
-  document.getElementById('aboutMe').scrollIntoView({block: 'center'})
+  scrollToElement('aboutMe')
 }
 
 function scrollToEducation() {
-  document.getElementById('education').scrollIntoView({block: 'center'});
+  scrollToElement('education')
 }
 
 function scrollToWork() {
-  document.getElementById('work').scrollIntoView({block: 'center'});
+  scrollToElement('work')
 }
 
 function scrollToTop() {
