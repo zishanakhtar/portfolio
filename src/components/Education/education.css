@@ -15,11 +15,18 @@ h3 {
     font-size: 1.5em;
 }
 
-.aboutCard {
+.eduCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.eduCard {
     border: 1px solid white;
     border-radius: 1rem;
-    width: 70vw;
-    padding: 1rem 0;
+    width: 20vw;
+    padding: 1rem;
     margin: 1rem 0;
     display: flex;
     gap: 1rem;
@@ -28,7 +35,7 @@ h3 {
     flex-direction: column;
 }
 
-.aboutCard:hover {
+.eduCard:hover {
     background-color: rgb(55, 55, 55);
     cursor: pointer;
 }

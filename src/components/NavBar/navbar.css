@@ -19,24 +19,33 @@
 }
 
 .desktopMenuBtn {
-    background-color: white;
+    background-color: rgb(230, 230, 230);
     padding: 1rem;
     border-radius: 1rem;
     cursor: pointer;
 }
 
+.desktopMenuBtn:hover {
+    background-color: white;
+}
+
 .desktopMenu {
     display: flex;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 .desktopMenuListItem {
     cursor: pointer;
-    margin: 1rem;
+    margin: 0.5rem;
+    padding: 0.75rem 1rem;
     font-size: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
 }
 
 .desktopMenuListItem:hover {
-    text-decoration: underline;
+    border-color: whitesmoke; 
+    background-color: white;
+    color: black;
 }
 

@@ -30,6 +30,10 @@ function scrollToWork() {
   scrollToElement('work')
 }
 
+function scrollToProjects() {
+  scrollToElement('projects')
+}
+
 function scrollToTop() {
   window.scrollTo(0,0)
 }
@@ -44,6 +48,7 @@ const Navbar = () => {
             <Link className='desktopMenuListItem' onClick={scrollToAbout}>About</Link>
             <Link className='desktopMenuListItem' onClick={scrollToEducation}>Education</Link>
             <Link className='desktopMenuListItem' onClick={scrollToWork}>Work</Link>
+            <Link className='desktopMenuListItem' onClick={scrollToProjects}>Projects</Link>
         </div>
         <button className="desktopMenuBtn">
             <img src="" alt="" className="desktopMenuImg" />Contact Me
