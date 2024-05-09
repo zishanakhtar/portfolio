@@ -1,0 +1,49 @@
+.projectsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projectCard {
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 20vw;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projectCard:hover {
+    background-color: rgb(55, 55, 55);
+    cursor: pointer;
+}
+
+.projectsLine {
+    width: 100vw;
+    height: 1px;
+    background-color: white;
+}
+
+.techContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.techItem {
+    border: 0.5px solid white;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#btnLiveLink {
+    background-color: rgb(230, 230, 230);
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}

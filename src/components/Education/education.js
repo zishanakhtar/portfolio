@@ -46,7 +46,7 @@ const Education = () => {
           );
         })}
       </div>
-      <div className="line"></div>
+      <div className="eduLine"></div>
     </div>
   );
 };

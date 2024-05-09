@@ -63,7 +63,7 @@ const Work = () => {
         );
       })}
        </div>
-      <div className="line"></div>
+      <div className="workLine"></div>
     </div>
   )
 }
